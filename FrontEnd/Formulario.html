@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="Formulario.css" media="screen">
+        <title>Venda</title>
+    </head>
+
+    <body>  
+        <header>
+            <div class="overlay">
+        <h1>Formulário para compra de <strong>Pacotes de Adesivos</strong></h1>
+        </header>
+
+        <form>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Quais Adesivos:</strong></label><br><br>
+                    <input type="checkbox" id="adesivo1" name="adesivo1" value="React">
+                    <label for="adesivo1">React</label>
+                    <input type="checkbox" id="adesivo2" name="adesivo2" value="Vue">
+                    <label for="adesivo2">Vue</label>
+                    <input type="checkbox" id="adesivo3" name="adesivo3" value="Angular">
+                    <label for="adesivo3">Angular</label>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+
+                <label><strong>Quantos Adesivos de Cada?</strong></label>
+                <input type="number" id="quantidade" nome="quantidade" value="0" min="0">
+            </div>
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Observações: </strong></label>
+                <textarea rows="6" style="width: 38em"  id="experiencia" name="experiencia"></textarea>
+            </div>
+            <footer class="campo" id="rodape">
+                <button class="botao" type="submit" onsubmit="">Enviar</button>           
+            </footer>
+             
+
+        </form>
+
+    </body>
+
+</html>
